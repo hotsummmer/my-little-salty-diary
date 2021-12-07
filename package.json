@@ -26,6 +26,6 @@
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
-    "src/**/*": "prettier --write --ignore-unknown"
+    "src/**/*.{ts,tsx,js}": "prettier --write --ignore-unknown"
   }
 }
