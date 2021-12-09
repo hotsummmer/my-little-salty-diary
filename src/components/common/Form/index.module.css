@@ -1,0 +1,12 @@
+.Form {
+    padding: 0;
+    margin: 0;
+}
+
+.Form > div {
+    margin-bottom: 10px;
+}
+
+.Form > button {
+    margin-top: 50px
+}

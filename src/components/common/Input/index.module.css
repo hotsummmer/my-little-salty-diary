@@ -1,0 +1,22 @@
+.InputWrapper {
+    padding: 5px;
+}
+
+.Label {
+    display: block;
+    margin-left: 2px;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.Input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+}
+
+.Invalid{
+    border-color: red;
+}
