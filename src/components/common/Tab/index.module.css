@@ -1,0 +1,22 @@
+.Tab {
+	margin:0;
+	padding:0;
+	display: flex;
+	list-style: none;
+}
+
+.Tab > li {
+	flex: 1;
+	margin: 0;
+	padding: 15px 10px;
+	border-bottom: 2px solid transparent;
+	font-size: 16px;
+	color: black;
+	text-align: center;
+	cursor: pointer;
+}
+
+.Tab > li.Selected{
+	border-bottom-color: black;
+	font-weight: bold;
+}
