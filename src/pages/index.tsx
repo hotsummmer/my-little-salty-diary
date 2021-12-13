@@ -1,5 +1,14 @@
+import { useRouter } from 'next/router';
+import { useEffect } from 'react';
+
 const Home: React.FC = () => {
-	return <>Hi. this is home;</>;
+	const router = useRouter();
+
+	useEffect(() => {
+		router.replace('/diary');
+	}, [router]);
+
+	return null;
 };
 
 export default Home;
